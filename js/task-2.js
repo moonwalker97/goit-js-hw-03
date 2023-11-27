@@ -2,7 +2,7 @@ function makeArray(firstArray, secondArray, maxLength) {
     const myArray = [...firstArray, ...secondArray];
 
     if (myArray.length >= maxLength) {
-        const arr = myArray.slice(0, maxLength+1);
+        const arr = myArray.slice(0, maxLength);
 
         return arr;
     }

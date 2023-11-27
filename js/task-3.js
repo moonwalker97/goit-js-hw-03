@@ -2,7 +2,7 @@ function filterArray(numbers, value) {
     let filteredList = [];
 
     for (const element of numbers) {
-        if(element <= value) {
+        if(element > value) {
             filteredList.push(element);
         }
     }
